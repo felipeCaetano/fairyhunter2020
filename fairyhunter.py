@@ -17,7 +17,6 @@ pygame.init()
 pygame.font.init()
 pygame.mixer.init()
 
-geral_display_surface = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGTH))
 
 class Game:
     """
@@ -105,7 +104,7 @@ class Game:
                     elif event.key == pygame.K_SPACE:
                         Laser.play_sound()
                         self.lasers.append(
-                            Laser(game, self.starship.x -2 + self.starship.width / 2, self.starship.y))
+                            Laser(game, self.starship.x-2 + self.starship.width/2, self.starship.y))
                     elif event.key == pygame.K_p:
                         self._pause()
                     elif event.key == pygame.K_q:
