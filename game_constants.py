@@ -1,5 +1,5 @@
 # game constants
-FRAME_RATE = 120
+FRAME_RATE = 30
 DISPLAY_WIDTH = 800
 DISPLAY_HEIGTH = 600
 BLUE = (0, 0, 255)
@@ -14,7 +14,7 @@ STARSHIP_SPEED = 30
 
 # fairy constants
 FAIRY_LOC = -50
-MAX_FAIRY_SPEED = 2
+MAX_FAIRY_SPEED = 5
 INITIAL_FAIRY_COUNT = 5
 
 # laser constants
